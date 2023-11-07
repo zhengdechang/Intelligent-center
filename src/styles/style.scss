@@ -1,0 +1,59 @@
+@font-face {
+  font-family: bahnschrift;
+  src: url('../assets/font/bahnschrift.ttf');
+}
+
+
+@font-face {
+  font-family: Fontquan-XinYiGuanHeiTi-Regular;
+  src: url('../assets/font/XinYiGuanHeiTi.ttf');
+}
+body {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+
+  .loading-data {
+    z-index: 10000 !important;
+
+    .el-icon-loading {
+      font-size: 3vw;
+    }
+
+    .el-loading-text {
+      font-size: 1.2vw;
+      padding: 0.5vh 0;
+    }
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#app {
+  font-family: Source Han Sans CN;
+}
